@@ -8,8 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class LuckyWordController
 {
 
-	//@Value("${lucky-word}")
-	@Value("huy")
+	@Value("${lucky-word}")
 	String luckyWord;
 
 	@GetMapping("/lucky-word")
